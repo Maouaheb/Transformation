@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<featureModel>
+    <struct>
+        <and abstract="true" mandatory="true" name="AnnotatedMetamodel.Application">
+            <and mandatory="true" name="AnnotatedMetamodel.Persona">
+                <feature name="AnnotatedMetamodel.Disability" mandatory="true"/>
+                <feature name="AnnotatedMetamodel.TypePoI"/>
+                <or name="0.0154608367452016" mandatory="true">
+                    <feature name="AnnotatedMetamodel.Adult"/>
+                    <feature name="AnnotatedMetamodel.Young"/>
+                    <feature name="AnnotatedMetamodel.Senior"/>
+                </or>
+            </and>
+            <and mandatory="true" name="AnnotatedMetamodel.Platform">
+                <feature name="AnnotatedMetamodel.HardFeature" mandatory="true"/>
+                <alt name="0.6266838679624284" mandatory="true">
+                    <feature name="AnnotatedMetamodel.Desktop"/>
+                    <feature name="AnnotatedMetamodel.Tablet"/>
+                    <feature name="AnnotatedMetamodel.Phone"/>
+                </alt>
+            </and>
+            <alt name="AnnotatedMetamodel.FeatureOffered">
+                <feature name="AnnotatedMetamodel.RoutePlanning"/>
+                <feature name="AnnotatedMetamodel.WeatherForecast"/>
+                <feature name="AnnotatedMetamodel.MicroSocNet"/>
+                <or name="AnnotatedMetamodel.Positionning">
+                    <feature name="AnnotatedMetamodel.Inside"/>
+                    <feature name="AnnotatedMetamodel.Gps"/>
+                </or>
+            </alt>
+        </and>
+    </struct>
+</featureModel>

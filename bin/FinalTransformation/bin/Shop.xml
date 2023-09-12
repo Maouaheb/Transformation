@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Application">
+			<graphics key="collapsed" value="false"/>
+			<alt name="User-Handicap">
+				<graphics key="collapsed" value="false"/>
+				<feature name="Myopic"/>
+				<feature name="Colorblind"/>
+			</alt>
+			<and mandatory="true" name="SGBD">
+				<graphics key="collapsed" value="false"/>
+				<alt mandatory="true" name="18945">
+					<feature name="SQLite"/>
+					<feature name="MySQL"/>
+				</alt>
+				<alt name="340945">
+					<feature name="remote"/>
+					<feature name="locally"/>
+				</alt>
+			</and>
+			<or mandatory="true" name="Shop">
+				<feature name="Ebay"/>
+				<feature name="Amazon"/>
+				<feature name="Fnak"/>
+			</or>
+		</and>
+	</struct>
+</featureModel>

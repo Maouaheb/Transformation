@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jaxb-ri-2.3.0/jaxb-ri/bin/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/codemodel-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/dtd-parser-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/istack-commons-runtime-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/istack-commons-tools-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/jaxb-core-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/jaxb-impl-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/jaxb-xjc-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jaxb-ri-2.3.0/jaxb-ri/bin/jsr173_api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/relaxngDatatype-20020414.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/rngom-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jaxb-ri-2.3.0/jaxb-ri/bin/sjsxp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/txw2-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/belarbim/Downloads/jaxb-ri-2.2.6-master/jar_files/xsom-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
